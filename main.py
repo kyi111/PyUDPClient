@@ -5,7 +5,7 @@ msgFromClient = "n1.jpg"
 bytesToSend = str.encode(msgFromClient)
 serverAddressPort = ("127.0.0.1", 20001)
 # bufferSize = 1024
-bufferSize = 100 # 버퍼사이즈 줄임
+bufferSize = 10 # 버퍼사이즈 줄임
 # 클라이언트 쪽에서 UDP 소켓 생성
 UDPClientSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
 # 생성된 UDP 소켓을 사용하여 서버로 전송
