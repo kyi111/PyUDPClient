@@ -1,7 +1,7 @@
 import socket
 
 # 전송할 메시지를 설정해둔다.
-msgFromClient = "n3.jpg"
+msgFromClient = "n1.jpg"
 bytesToSend = str.encode(msgFromClient)
 serverAddressPort = ("127.0.0.1", 20001)
 # bufferSize = 1024
