@@ -1,2 +1,0 @@
-# PyUDPClient
- udp client test
